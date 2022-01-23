@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react';
+
 import {MicrophoneIcon} from '@heroicons/react/outline'
 import RightText from './RightText';
 import LeftText from './LeftText';
-import axios from 'axios'
+
 
 const ChatSection = () => {
 
