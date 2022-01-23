@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import ChatSection from "./components/ChatSection";
+import MidSection from "./components/MidSection";
+import Sidebar from "./components/Sidebar";
+import store from './store'
+import {Provider} from 'react-redux'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex h-screen w-full font-sans">
+      <Sidebar  />
+      <Provider store={store}>
+        <MidSection />
+      </Provider> 
+      <ChatSection />
     </div>
-  );
+  )
 }
 
 export default App;
