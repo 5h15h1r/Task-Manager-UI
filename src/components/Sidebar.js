@@ -1,6 +1,6 @@
 import Bar from './Sidebar/Bar';
 import BigBars from './Sidebar/BigBars';
-import {PlusIcon,CogIcon,TrendingUpIcon,ChartSquareBarIcon,BellIcon,SearchIcon} from '@heroicons/react/outline'
+import {PlusIcon,CogIcon,TrendingUpIcon,ChartSquareBarIcon} from '@heroicons/react/outline'
 const Sidebar = () => {
   return (
     <div className='bg-gray-100 flex flex-col  items-center   h-full  w-1/6 '>

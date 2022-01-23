@@ -8,10 +8,7 @@ import {BellIcon,SearchIcon} from '@heroicons/react/outline'
 
 const MidSection = ({lists}) => {
   const onDragEnd = ({result}) =>{
-    const { destination, source, draggableId} = result
-    if (!destination){
-      return ;
-    }
+    
   }
   return (
     <div className='h-full w-7/12 flex flex-col  px-8 bg-gray-100 bg-opacity-70 overflow-scroll'>
