@@ -7,6 +7,3 @@ export const AddCard =(listID, text) =>{
     }
 }
 
-export const sort= {
-    droppableStart,
-}
